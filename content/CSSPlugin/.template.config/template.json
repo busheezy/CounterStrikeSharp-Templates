@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "BuSheeZy",
+  "classifications": ["CounterStrikeSharp"],
+  "identity": "CounterStrikeSharp.Plugin",
+  "name": "CounterStrikeSharp Plugin",
+  "shortName": "cssplugin",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "symbols": {
+    "PluginName": {
+      "type": "parameter",
+      "description": "The name of the plugin. (e.g. \"HelloWorld\")",
+      "datatype": "text",
+      "replaces": "PluginName",
+      "fileRename": "PluginName",
+      "isRequired": true
+    }
+  }
+}
