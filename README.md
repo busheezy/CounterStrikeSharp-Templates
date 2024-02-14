@@ -3,4 +3,7 @@
 
 ## Example
 
-``dotnet new cssplugin -P HelloWorld``
+```
+dotnet new install CounterStrikeSharp.Templates
+dotnet new cssplugin -P HelloWorld -o HelloWorld
+```
